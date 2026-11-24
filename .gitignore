@@ -15,6 +15,32 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.pchi
+ipch/
+
+# Microsoft Visual C++ / Visual Studio
+.vs/
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.ncb
+*.aps
+*.VC.db
+*.VC.opendb
+*.VC.db-wal
+*.tlog/
+*.lastbuildstate
+*.unsuccessfulbuild
+*.res
+*.tlb
+*.tlh
+*.tli
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
 
 # Libraries
 *.lib
@@ -30,11 +56,35 @@
 
 # Executables
 *.exe
+*.com
+*.bin
 *.out
 *.app
+*.AppImage
 *.i*86
 *.x86_64
 *.hex
+*.msi
+*.msp
+*.msix
+*.appx
+*.deb
+*.rpm
+*.dmg
+*.pkg
+*.ipa
+*.apk
+*.jar
+*.class
+*.wasm
+*.pyc
+*.pyo
+*.pyd
+*.scr
+*.pif
+*.gadget
+*.run
+*.bat
 
 # Debug files
 *.dSYM/
